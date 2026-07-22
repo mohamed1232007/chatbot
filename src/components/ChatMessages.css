@@ -1,0 +1,21 @@
+.chat-message-container {
+    flex-grow: 1;
+    margin-top: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: none;
+}
+
+.chat-message-container.empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6c757d;
+    font-style: italic;
+}
+
+.empty-placeholder {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.03);
+    border-radius: 8px;
+}
